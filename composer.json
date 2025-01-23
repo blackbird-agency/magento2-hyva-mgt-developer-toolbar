@@ -1,0 +1,30 @@
+{
+    "name": "blackbird/module-hyva-mgt-developer-toolbar",
+    "version": "1.0.0",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "hyva-themes/magento2-default-theme": "*"
+    },
+    "require-dev": {
+        "blackbird/external-resources-loader": "^1.0",
+        "mgtcommerce/module-mgtdevelopertoolbar": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Blackbird\\HyvaMgtDeveloperToolbar\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Blackbird Agency",
+            "email": "contact@bird.eu",
+            "homepage": "https://black.bird.eu"
+        }
+    ]
+}

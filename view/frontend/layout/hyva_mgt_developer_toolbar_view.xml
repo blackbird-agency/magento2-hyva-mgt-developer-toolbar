@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<page layout="empty" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="profiler">
+            <action method="setTemplate">
+                <argument name="setTemplate" xsi:type="string">Blackbird_HyvaMgtDeveloperToolbar::toolbar/container/sidebar/profiler.phtml
+                </argument>
+            </action>
+        </referenceBlock>
+
+        <referenceBlock name="blocks">
+            <action method="setTemplate">
+                <argument name="setTemplate" xsi:type="string">Blackbird_HyvaMgtDeveloperToolbar::toolbar/container/sidebar/blocks.phtml
+                </argument>
+            </action>
+        </referenceBlock>
+
+        <referenceBlock name="events">
+            <action method="setTemplate">
+                <argument name="setTemplate" xsi:type="string">Blackbird_HyvaMgtDeveloperToolbar::toolbar/container/sidebar/events.phtml
+                </argument>
+            </action>
+        </referenceBlock>
+
+        <referenceBlock name="plugins">
+            <action method="setTemplate">
+                <argument name="setTemplate" xsi:type="string">Blackbird_HyvaMgtDeveloperToolbar::toolbar/container/sidebar/plugins.phtml
+                </argument>
+            </action>
+        </referenceBlock>
+
+    </body>
+</page>

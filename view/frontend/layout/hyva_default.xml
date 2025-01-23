@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="HyvaMgtDeveloperToolbar::css/hyva-style.css"/>
+    </head>
+    <body>
+        <referenceBlock name="mgt_developer_toolbar" template="toolbar.phtml">
+            <action method="setTemplate">
+                <argument name="setTemplate" xsi:type="string">Blackbird_HyvaMgtDeveloperToolbar::toolbar.phtml</argument>
+            </action>
+        </referenceBlock>
+    </body>
+</page>
