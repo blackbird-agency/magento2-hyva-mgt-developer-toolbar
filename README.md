@@ -1,4 +1,4 @@
-# Universe Management Module for Magento 2
+#  HYVA MGT DEVELOPER TOOLBAR for Module for Magento 2
 
 Hyva compat for mgt-developer-toolbar
 
